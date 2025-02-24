@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+ 
+    <header>
+      <div class="menu">
+      <div class="right">
+          <div class="menu_right">
+              <a class="a" href="#">Главная</a>
+              <a class="a" href="#">Мои кошельки</a>
+              <a class="a" href="#">Мои транзакции</a>
+          </div>
+      </div>
+      <div class="left">
+          <div class="menu_left">
+              <a class="a" href="#">alexadams@google.com</a>
+              <img src="./logo.svg" alt="">
+          </div>
+      </div>
+  </div>
+  </header>
+
+  <div class="containers">
+      <div class="welcome-message">
+          <h1>Добро пожаловать, Alex Adams!</h1>
+          <p class="email">alexadams@google.com</p>
+      </div>
+
+      <div class="wrapper">
+          <h5>Мои кошельки</h5>
+          <div class="wallets">
+              <div class="wallet1">
+                  <span class="visa">Visa</span>
+                  <span class="rub">RUB</span>
+              </div>
+              <div class="wallet2">
+                  <span class="visa">Visa</span>
+                  <span class="rub">RUB</span>
+              </div>
+              <div class="wallet3">
+                  <span class="visa">Visa</span>
+                  <span class="rub">RUB</span>
+              </div>
+              <div class="wallet4">
+                  <span class="visa">Visa</span>
+                  <span class="rub">RUB</span>
+              </div>
+          </div>
+          <button class="u">Смотреть все кошельки</button>
+      </div>
+
+      <div class="transactions-section">
+          <h5>Последние транзакции</h5>
+          <table id="transactions-table">
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Отправлено с кошелька</th>
+                      <th>Категория</th>
+                      <th>Сумма транзации</th>
+                      <th>Когда</th>
+                  </tr>
+              </thead>
+              <tbody>
+              </tbody>
+          </table>
+          <button class="u">Смотреть все оплаты</button>
+      </div>
+  </div>
+
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

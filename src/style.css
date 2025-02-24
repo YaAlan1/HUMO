@@ -1,0 +1,333 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containers {
+  width: 100%; 
+  max-width: 1200px;  
+  margin: 0 auto;  
+  padding: 20px; 
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.Registration {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.h1 {
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+.inp {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+.but {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  border: 1px;
+  background-color: blue;
+  color: white;
+}
+
+.inp::placeholder {
+  font-size: 16px;
+  color: black;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  font-size: 18px;
+}
+
+.btn {
+  color: blue;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  margin-left: 168px;
+  font-size: 18px;
+}
+
+.b {
+  color: blue;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu_right {
+  margin-top: 25px;
+  margin-left: 200px;
+
+}
+
+.menu_left img {
+  margin-top: 25px;
+  margin-right: 200px;
+
+}
+
+.welcome-message {
+  margin-top: 44px;
+  margin-left: -580px;
+}
+
+.welcome-message h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+
+}
+
+.email {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: normal;
+  color: blue;
+}
+
+
+h5 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-left: 190px;
+}
+
+.wallets {
+  display: flex;
+  margin-left: 190px;
+  gap: 20px; 
+}
+
+.wallet1 {
+  width: 282px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+}
+
+.wallet2 {
+  width: 282px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(84.37deg, #5F0A87 2.27%, #A4508B 92.26%);
+}
+.wallet3 {
+  width: 282px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+.wallet4 {
+  width: 282px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
+}
+
+.u {
+  color: blue;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+.wallet1 .visa {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.wallet1 .rub {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.wallet2 .visa {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.wallet2 .rub {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.wallet3 .visa {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.wallet3 .rub {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.wallet4 .visa {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.wallet4 .rub {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+table {
+  margin-left: 190px;
+  width: 1200px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: black;
+}
+
+table td {
+  background-color: #fff;
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+button.u:hover {
+  background-color: #2980b9;
+}
